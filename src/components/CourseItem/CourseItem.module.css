@@ -23,3 +23,8 @@ img {
   margin-bottom: 2rem;
   overflow: hidden;
 }
+
+.rating {
+  color: #e76114;
+  font-weight: bold;
+}

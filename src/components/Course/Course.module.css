@@ -38,3 +38,6 @@
   border: 1px solid rgb(238, 238, 238);
   border-radius: 0.7rem;
 }
+.rating {
+  color: #e76114;
+}

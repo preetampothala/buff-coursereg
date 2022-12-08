@@ -6,7 +6,7 @@ const CourseItem = (props) => {
     props.description.length > 10
       ? props.description.slice(0, 50) + " ..."
       : props.description;
-    
+
   return (
     <li className={styles.card}>
       <Link to={`/courses/${props.id}`}>
@@ -18,7 +18,7 @@ const CourseItem = (props) => {
           <p className={styles.text}>{description}</p>
           <div className={styles.itembottom}>
             <p>{props.instructor}</p>
-            <p>{props.rating}</p>
+            <p className={styles.rating}>{props.rating}*</p>
           </div>
         </div>
       </Link>
