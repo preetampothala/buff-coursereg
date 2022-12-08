@@ -1,0 +1,18 @@
+.cartpage {
+  display: flex;
+  flex-direction: column;
+}
+.title {
+  margin-bottom: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.enrollbutton {
+  width: 20%;
+  margin: auto;
+  margin-bottom: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

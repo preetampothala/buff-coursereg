@@ -1,0 +1,40 @@
+.course_detail_main {
+  background-color: #343434;
+  border-radius: 0.7rem;
+  margin-bottom: 2rem;
+  padding: 2rem;
+}
+.detailsmaincontent {
+  display: flex;
+  flex-direction: column;
+
+  color: #fff;
+}
+.top {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+.topone {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.marginbot {
+  margin-bottom: 1rem;
+}
+.cdSections {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  max-width: 80%;
+}
+.articles {
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  align-items: center;
+  border: 1px solid rgb(238, 238, 238);
+  border-radius: 0.7rem;
+}

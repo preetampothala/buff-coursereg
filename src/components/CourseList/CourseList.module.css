@@ -1,0 +1,13 @@
+.list{
+    display: flex;
+    flex-wrap: wrap;
+}
+.course-filter{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.list > *{
+    min-width: 31%;
+    margin: 16px;
+}
