@@ -17,7 +17,7 @@ const CourseItem = (props) => {
           <h3 className={styles.text}>{props.title}</h3>
           <p className={styles.text}>{description}</p>
           <div className={styles.itembottom}>
-            <p>{props.instructor}</p>
+            <p className={styles.rating}>{props.instructor}</p>
             <p className={styles.rating}>{props.rating}*</p>
           </div>
         </div>

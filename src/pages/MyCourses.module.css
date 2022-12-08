@@ -1,0 +1,6 @@
+.heading {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  margin-bottom: 3rem;
+}
